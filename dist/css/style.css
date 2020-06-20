@@ -1,0 +1,96 @@
+#hero {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(/dist/img/hero-background.png);
+    height: 100%;
+}
+
+#hero p {
+    line-height: 1.15rem;
+}
+
+#hero ul li a {
+    text-decoration: none;
+}
+
+#hero ul li a:hover {
+    opacity: 0.5;
+}
+
+#hero ul li a:nth-child(1) {
+    color: plum;
+}
+
+#hero ul li a:nth-child(2) {
+    color: royalblue;
+}
+
+#hero ul li a:nth-child(3) {
+    color: limegreen;
+}
+
+#hero ul li a:nth-child(4) {
+    color: crimson;
+}
+
+#content {
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(/dist/img/main-background.png);
+    height: 100%;
+}
+
+#content hr {
+    background-color: var(--gray-dark);
+}
+
+#content p span:first-of-type {
+    color: #0094B5;
+}
+
+#content p span:last-of-type {
+    color: #801815;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .navbar-collapse .navbar-nav .nav-item:not(:last-of-type) {
+        border-right: 1px solid var(--gray-dark);
+    }
+}
+
+.btn-xl {
+    padding-left: 2.4rem !important;
+    padding-right: 2.4rem !important;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'belwe-light';
+    src: url('../fonts/belwe-light.ttf');
+}
+
+.font-belwe-light {
+    font-family: 'belwe-light';
+}
+
+@font-face {
+    font-family: 'calibri-light';
+    src: url('../fonts/calibri-light.ttf');
+}
+
+.font-calibri-light {
+    font-family: 'calibri-light';
+}
+
+@font-face {
+    font-family: 'calibri-bold';
+    src: url('../fonts/calibri-bold.ttf');
+}
+
+.font-calibri-bold {
+    font-family: 'calibri-bold';
+}
